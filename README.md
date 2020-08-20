@@ -1,7 +1,7 @@
 # NeteaseMusicApiLearnApp
  一个用网易云音乐第三方api编写的供学习的app
 
- 用的是网络上找到的api，由于没有原api在终端没有相对应的密码账号防护措施，所以仅仅是只用用户的uid来登录，可以访问用户歌单和歌单的内容。
+ 用的是网络上找到的api，由于原api在终端没有相对应的密码账号防护措施，所以只是用户的uid来登录，可以访问用户歌单和歌单的内容。
  
  由于是自学的app开发，学术不精，所以代码很乱，但是应该很好懂。而且也因为这一点的原因，获取歌单的内容非常慢，因为是一个一个的解析，我也没有能想到其他解决方法。
 
@@ -23,7 +23,6 @@
      + [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 ## License
-----
 The MIT License (MIT)
 
 
