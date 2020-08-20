@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MusicApiDemo</string>
+    <string name="hint_text">Input ID</string>
+    <string name="dialog_title">Hi! there</string>
+    <string name="agree">Agree</string>
+    <string name="dialog_btn_confirm_text">OK</string>
+    <string name="dialog_btn_cancel_text">Cancel</string>
+    <string name="dialog_btn_neutral_text">Exit</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+    <string name="my">My</string>
+    <string name="about">About</string>
+    <string name="progressing">Progressing...</string>
+    <string name="_private">Private</string>
+    <string name="collection">Collection</string>
+    <string name="no_description">There is no description</string>
+    <string name="something_error">ID or network was wrong,maybe you need check for something.</string>
+    <string name="input_your_id">Input your ID</string>
+    <string name="usrNotFound">User is not found</string>
+    <string name="first" translatable="false">1</string>
+    <string name="compeled">Compeled</string>
+    <string name="geting">Getting the music detail…</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="move_name" translatable="false">Cover Name</string>
+    <string name="move_avater" translatable="false">Avater name</string>
+    <string name="description_text">This is a brief test text in English. It may or may not take five lines. It\'s a test anyway.</string>
+</resources>

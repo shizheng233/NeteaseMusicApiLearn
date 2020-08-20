@@ -1,0 +1,2 @@
+# NeteaseMusicApiLearnApp
+ 一个用网易云音乐第三方api编写的供学习的app

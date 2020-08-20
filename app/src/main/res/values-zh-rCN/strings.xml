@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音乐api练习项目</string>
+    <string name="hint_text">输入你的ID</string>
+    <string name="dialog_title">开始</string>
+    <string name="agree">同意</string>
+    <string name="dialog_btn_confirm_text">确定</string>
+    <string name="dialog_btn_cancel_text">取消</string>
+    <string name="dialog_btn_neutral_text">退出</string>
+    <string name="drawer_open">侧滑栏开启</string>
+    <string name="drawer_close">侧滑栏关闭</string>
+    <string name="my">我的</string>
+    <string name="about">关于</string>
+    <string name="progressing">加载中。。。</string>
+    <string name="_private">私人歌单</string>
+    <string name="collection">我的收藏</string>
+    <string name="no_description">没有描述</string>
+    <string name="something_error">ID 或是网络出了问题，或许你需要检查下id或者网络</string>
+    <string name="input_your_id">输入你的id</string>
+    <string name="usrNotFound">找不到用户</string>
+    <string name="compeled">加载完成</string>
+    <string name="geting">获取歌曲信息中。。。</string>
+    <string name="description_text">这是一段中文的简介测试文字，它可能会占用五行，也可能不是。反正这是测试。</string>
+</resources>
