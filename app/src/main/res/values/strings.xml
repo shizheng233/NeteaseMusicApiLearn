@@ -24,4 +24,6 @@
     <string name="move_name" translatable="false">Cover Name</string>
     <string name="move_avater" translatable="false">Avater name</string>
     <string name="description_text">This is a brief test text in English. It may or may not take five lines. It\'s a test anyway.</string>
+    <string name="no_more">There is no more</string>
+    <string name="click_more">Press here for loading more</string>
 </resources>

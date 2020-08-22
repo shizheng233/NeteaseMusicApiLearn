@@ -2,9 +2,11 @@ package com.studies.flutters;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
@@ -35,8 +37,11 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
@@ -177,7 +182,6 @@ public class MainActivity extends AppCompatActivity {
         });
         dialog.show();
 
-
         handler = new Handler() {
             @SuppressLint("HandlerLeak")
             @Override
@@ -210,6 +214,7 @@ public class MainActivity extends AppCompatActivity {
                                     String description;
                                     long music_id = object.getLong("id");
                                     bean.setMusicId(music_id);
+//                                    String url = "http://musicapi.leanapp.cn/playlist/detail?id=" + music_id;
                                     str = object.getString("coverImgUrl");
 
                                     bean.setListImageURL(str);
@@ -241,7 +246,7 @@ public class MainActivity extends AppCompatActivity {
                                 progressDialog.dismiss();
                                 dialog.dismiss();
                                 neteaseAdapter = new NeteaseAdapter(list_L, MainActivity.this,
-                                        getString(R.string.my),recyclerViewList);
+                                        getString(R.string.my), recyclerViewList);
                                 recyclerViewList.setLayoutManager(layoutManager);
                                 recyclerViewList.setAdapter(neteaseAdapter);
                                 break;

@@ -21,4 +21,6 @@
     <string name="compeled">加载完成</string>
     <string name="geting">获取歌曲信息中。。。</string>
     <string name="description_text">这是一段中文的简介测试文字，它可能会占用五行，也可能不是。反正这是测试。</string>
+    <string name="no_more">没有更多了</string>
+    <string name="click_more">点击这里加载更多</string>
 </resources>
